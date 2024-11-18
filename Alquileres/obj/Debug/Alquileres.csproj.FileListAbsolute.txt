@@ -1,0 +1,10 @@
+C:\Users\karen\OneDrive\Escritorio\Alquileres\Alquileres\bin\Debug\Alquileres.exe.config
+C:\Users\karen\OneDrive\Escritorio\Alquileres\Alquileres\bin\Debug\Alquileres.exe
+C:\Users\karen\OneDrive\Escritorio\Alquileres\Alquileres\bin\Debug\Alquileres.pdb
+C:\Users\karen\OneDrive\Escritorio\Alquileres\Alquileres\obj\Debug\Alquileres.csproj.AssemblyReference.cache
+C:\Users\karen\OneDrive\Escritorio\Alquileres\Alquileres\obj\Debug\Alquileres.Form1.resources
+C:\Users\karen\OneDrive\Escritorio\Alquileres\Alquileres\obj\Debug\Alquileres.Properties.Resources.resources
+C:\Users\karen\OneDrive\Escritorio\Alquileres\Alquileres\obj\Debug\Alquileres.csproj.GenerateResource.cache
+C:\Users\karen\OneDrive\Escritorio\Alquileres\Alquileres\obj\Debug\Alquileres.csproj.CoreCompileInputs.cache
+C:\Users\karen\OneDrive\Escritorio\Alquileres\Alquileres\obj\Debug\Alquileres.exe
+C:\Users\karen\OneDrive\Escritorio\Alquileres\Alquileres\obj\Debug\Alquileres.pdb
