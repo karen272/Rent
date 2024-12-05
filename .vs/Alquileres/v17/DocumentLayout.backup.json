@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\models\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\karen\\onedrive\\escritorio\\alquileres\\alquileres\\models\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\models\\rent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,7 +31,7 @@
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\factorys\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\karen\\onedrive\\escritorio\\alquileres\\alquileres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -114,8 +114,7 @@
               "RelativeToolTip": "Alquileres\\Models\\Rentable\\Machinery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:21:45.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T05:21:45.619Z"
             },
             {
               "$type": "Document",
@@ -127,8 +126,7 @@
               "RelativeToolTip": "Alquileres\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T03:07:00.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T03:07:00.584Z"
             },
             {
               "$type": "Document",
@@ -140,8 +138,7 @@
               "RelativeToolTip": "Alquileres\\Models\\Rentable\\Tool.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:51:00.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T17:51:00.743Z"
             },
             {
               "$type": "Document",
@@ -153,8 +150,7 @@
               "RelativeToolTip": "Alquileres\\Models\\Rentable\\Vehicle.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T17:51:19.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T17:51:19.435Z"
             },
             {
               "$type": "Document",
@@ -179,8 +175,7 @@
               "RelativeToolTip": "Alquileres\\Models\\Rentable\\Costume.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T05:23:44.788Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T05:23:44.788Z"
             },
             {
               "$type": "Document",
@@ -192,8 +187,7 @@
               "RelativeToolTip": "Alquileres\\Models\\Rentable\\Appliance.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-17T18:57:53.946Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T18:57:53.946Z"
             },
             {
               "$type": "Document",
@@ -205,8 +199,7 @@
               "RelativeToolTip": "Alquileres\\Factorys\\ItemFactory.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAIwBgAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T03:30:58.313Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T03:30:58.313Z"
             },
             {
               "$type": "Document",
