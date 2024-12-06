@@ -56,7 +56,7 @@ namespace Alquileres.Models
 
         public virtual decimal CalculateRentalPrice(int days)
         {
-            return PriceStrategy?.CalculatePrice(this, days) ?? 0;
+            return PriceStrategy?.CalculatePrice(this.basePrice, days) ?? 0;
         }
 
     }

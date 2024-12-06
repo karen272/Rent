@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace Alquileres.Services.Strategy
 {
-    public class PriceStrategy : IPriceStrategy
+    internal class VehiclePriceStrategy : IPriceStrategy
     {
-        public decimal CalculatePrice(Item item, int days)
+        public decimal CalculatePrice(decimal basePrice, int days)
         {
-            return item.BasePrice * days;
+            return basePrice * days;
         }
     }
 }

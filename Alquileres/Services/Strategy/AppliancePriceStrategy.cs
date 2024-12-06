@@ -6,13 +6,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Alquileres.Services
+namespace Alquileres.Services.Strategy
 {
-    public class RentService
+    public class AppliancePriceStrategy : IPriceStrategy
     {
-        public decimal CalculateTotalRental(Item item, int days)
+
+        public decimal CalculatePrice(decimal basePrice, int days)
         {
-            return item.CalculateRentalPrice(days);
+            return basePrice * days;
         }
     }
 }

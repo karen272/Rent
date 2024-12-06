@@ -9,6 +9,6 @@ namespace Alquileres.Services.Interfaces
 {
     public interface IPriceStrategy
     {
-        decimal CalculatePrice(Item item, int days);
+        decimal CalculatePrice(decimal basePrice, int days);
     }
 }
