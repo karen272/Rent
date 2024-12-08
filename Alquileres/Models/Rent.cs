@@ -13,13 +13,15 @@ namespace Alquileres.Models
         private int days;
         private decimal totalCost;
         private User user;
+        private string itemType;
         public Rent() { }
-        public Rent(Item item, int days, decimal totalCost, User user)
+        public Rent(Item item, int days, decimal totalCost, User user, string itemType)
         {
             this.item = item;
             this.days = days;
             this.totalCost = totalCost;
             this.user = user;
+            this.itemType = itemType;
         }
         public Item Item
         {
@@ -40,6 +42,11 @@ namespace Alquileres.Models
         {
             get { return user; }
             set { user = value; }
+        }
+        public string ItemType
+        {
+            get { return itemType; }
+            set { itemType = value; }
         }
         public override string ToString()
         {

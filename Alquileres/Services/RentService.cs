@@ -27,5 +27,11 @@ namespace Alquileres.Services
         {
             return _rents;
         }
+
+        internal void UpdateRent(Rent rent)
+        {
+            _rents.Remove(rent);
+            _rents.Add(rent);
+        }
     }
 }

@@ -180,6 +180,7 @@
             this.lstRents.Name = "lstRents";
             this.lstRents.Size = new System.Drawing.Size(369, 388);
             this.lstRents.TabIndex = 13;
+            this.lstRents.SelectedIndexChanged += new System.EventHandler(this.lstRents_SelectedIndexChanged);
             // 
             // lblCreateRent
             // 

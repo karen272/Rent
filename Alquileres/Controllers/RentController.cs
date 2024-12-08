@@ -25,7 +25,7 @@ namespace Alquileres.Controllers
             item.PriceStrategy = strategy;
             var priceTotal = strategy.CalculatePrice(basePrice, days);
 
-            var rental = new Rent(item, days, priceTotal, user);
+            var rental = new Rent(item, days, priceTotal, user, itemType);
             _rentService.AddRent(rental);
             return priceTotal;
         }
@@ -37,6 +37,16 @@ namespace Alquileres.Controllers
         public List<Rent> GetAllRents()
         {
             return _rentService.GetAllRents();
+        }
+
+        internal void UpdateRent(User user, string itemType, string name, string description, decimal basePrice, int days, IPriceStrategy strategy)
+        {
+            var item = ItemFactory.CreateItem(itemType, name, description, basePrice);
+            item.PriceStrategy = strategy;
+            var priceTotal = strategy.CalculatePrice(basePrice, days);
+
+            var rental = new Rent(item, days, priceTotal, user, itemType);
+            _rentService.AddRent(rental);
         }
     }
 }

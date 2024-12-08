@@ -56,7 +56,7 @@ namespace Alquileres
                 IPriceStrategy strategy = PriceStrategyFactory.GetStrategy(itemType);
 
                 // Realizo el alquiler
-                decimal total = _controller.RentItem(user, itemType, name, description, basePrice, days, strategy);
+                _controller.RentItem(user, itemType, name, description, basePrice, days, strategy);
 
                 UpdateListRents();
             }
@@ -136,10 +136,65 @@ namespace Alquileres
 
         private void btnUpdateRent_Click(object sender, EventArgs e)
         {
+            if (cmbUsers.SelectedItem == null || !(cmbUsers.SelectedItem is User user))
+            {
+                MessageBox.Show("Please select a user.");
+                return;
+            }
 
+            if (!ValidateForm(out decimal basePrice, out int days))
+                return;
+
+            try
+            {
+                string itemType = cmbItemType.SelectedItem.ToString();
+                string name = txtName.Text;
+                string description = txtDescription.Text;
+
+                IPriceStrategy strategy = PriceStrategyFactory.GetStrategy(itemType);
+                _controller.UpdateRent(user, itemType, name, description, basePrice, days, strategy);
+
+                _deleteRent();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
+
+            LimpiarCampos();
         }
 
         private void btnDeleteRent_Click(object sender, EventArgs e)
+        {
+            _deleteRent();
+        }
+
+        private void lstRents_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Verifica si hay un elemento seleccionado
+            if (lstRents.SelectedItem == null)
+            {
+                MessageBox.Show("Please select an item to update.");
+                return;
+            }
+
+            // Verifica si el elemento seleccionado es del tipo Rent
+            var selectedRent = lstRents.SelectedItem as Rent;
+            if (selectedRent == null)
+            {
+                MessageBox.Show("The selected item is not a valid Rent object.");
+                return;
+            }
+
+            // Mostrar los datos actuales en los campos de entrada
+            cmbUsers.SelectedItem = selectedRent.User;
+            txtName.Text = selectedRent.Item.Name;
+            txtDescription.Text = selectedRent.Item.Description;
+            txtBasePrice.Text = selectedRent.Item.BasePrice.ToString();
+            txtDays.Text = selectedRent.Days.ToString();
+            cmbItemType.SelectedItem = selectedRent.ItemType;
+        }
+        public void _deleteRent()
         {
             // Verifica si hay un elemento seleccionado
             if (lstRents.SelectedItem == null)
@@ -163,8 +218,6 @@ namespace Alquileres
 
                 // Actualiza la lista de rentas
                 UpdateListRents();
-
-                MessageBox.Show("Rent item deleted successfully.");
             }
             catch (Exception ex)
             {
