@@ -30,9 +30,9 @@ namespace Alquileres.Controllers
             return priceTotal;
         }
 
-        public void DeleteRentItem(User user, Rent rent)
+        public void DeleteRentItem(Rent rent)
         {
-            user.Rents.Remove(rent);
+            _rentService.DeleteRent(rent);
         }
         public List<Rent> GetAllRents()
         {

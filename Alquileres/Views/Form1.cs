@@ -58,8 +58,6 @@ namespace Alquileres
                 // Realizo el alquiler
                 decimal total = _controller.RentItem(user, itemType, name, description, basePrice, days, strategy);
 
-                //// Muestro resultados
-                //lstRents.Items.Add($"{user.Name} rented: {name}, Total: ${total}");
                 UpdateListRents();
             }
             catch (Exception ex)
@@ -139,6 +137,39 @@ namespace Alquileres
         private void btnUpdateRent_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnDeleteRent_Click(object sender, EventArgs e)
+        {
+            // Verifica si hay un elemento seleccionado
+            if (lstRents.SelectedItem == null)
+            {
+                MessageBox.Show("Please select an item to delete.");
+                return;
+            }
+
+            // Verifica si el elemento seleccionado es del tipo Rent
+            var selectedRent = lstRents.SelectedItem as Rent;
+            if (selectedRent == null)
+            {
+                MessageBox.Show("The selected item is not a valid Rent object.");
+                return;
+            }
+
+            try
+            {
+                // Llama al controlador para eliminar el objeto Rent
+                _controller.DeleteRentItem(selectedRent);
+
+                // Actualiza la lista de rentas
+                UpdateListRents();
+
+                MessageBox.Show("Rent item deleted successfully.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error: {ex.Message}");
+            }
         }
     }
        

@@ -18,7 +18,7 @@ namespace Alquileres.Services
         {
             _rents.Add(rent);
         }
-        public void DeleteUser(Rent rent)
+        public void DeleteRent(Rent rent)
         {
             _rents.Remove(rent);
         }

@@ -54,7 +54,7 @@
             // 
             this.cmbItemType.FormattingEnabled = true;
             this.cmbItemType.Location = new System.Drawing.Point(113, 324);
-            this.cmbItemType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbItemType.Margin = new System.Windows.Forms.Padding(4);
             this.cmbItemType.Name = "cmbItemType";
             this.cmbItemType.Size = new System.Drawing.Size(160, 24);
             this.cmbItemType.TabIndex = 0;
@@ -62,7 +62,7 @@
             // btnRent
             // 
             this.btnRent.Location = new System.Drawing.Point(87, 387);
-            this.btnRent.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRent.Margin = new System.Windows.Forms.Padding(4);
             this.btnRent.Name = "btnRent";
             this.btnRent.Size = new System.Drawing.Size(151, 60);
             this.btnRent.TabIndex = 1;
@@ -83,7 +83,7 @@
             // txtName
             // 
             this.txtName.Location = new System.Drawing.Point(141, 120);
-            this.txtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtName.Margin = new System.Windows.Forms.Padding(4);
             this.txtName.Name = "txtName";
             this.txtName.Size = new System.Drawing.Size(132, 22);
             this.txtName.TabIndex = 3;
@@ -101,7 +101,7 @@
             // txtDescription
             // 
             this.txtDescription.Location = new System.Drawing.Point(141, 162);
-            this.txtDescription.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDescription.Margin = new System.Windows.Forms.Padding(4);
             this.txtDescription.Name = "txtDescription";
             this.txtDescription.Size = new System.Drawing.Size(132, 22);
             this.txtDescription.TabIndex = 5;
@@ -119,7 +119,7 @@
             // txtBasePrice
             // 
             this.txtBasePrice.Location = new System.Drawing.Point(141, 205);
-            this.txtBasePrice.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtBasePrice.Margin = new System.Windows.Forms.Padding(4);
             this.txtBasePrice.Name = "txtBasePrice";
             this.txtBasePrice.Size = new System.Drawing.Size(132, 22);
             this.txtBasePrice.TabIndex = 7;
@@ -137,7 +137,7 @@
             // txtDays
             // 
             this.txtDays.Location = new System.Drawing.Point(141, 249);
-            this.txtDays.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDays.Margin = new System.Windows.Forms.Padding(4);
             this.txtDays.Name = "txtDays";
             this.txtDays.Size = new System.Drawing.Size(132, 22);
             this.txtDays.TabIndex = 9;
@@ -146,7 +146,7 @@
             // 
             this.cmbUsers.FormattingEnabled = true;
             this.cmbUsers.Location = new System.Drawing.Point(141, 61);
-            this.cmbUsers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbUsers.Margin = new System.Windows.Forms.Padding(4);
             this.cmbUsers.Name = "cmbUsers";
             this.cmbUsers.Size = new System.Drawing.Size(160, 24);
             this.cmbUsers.TabIndex = 10;
@@ -176,7 +176,7 @@
             this.lstRents.FormattingEnabled = true;
             this.lstRents.ItemHeight = 16;
             this.lstRents.Location = new System.Drawing.Point(331, 59);
-            this.lstRents.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstRents.Margin = new System.Windows.Forms.Padding(4);
             this.lstRents.Name = "lstRents";
             this.lstRents.Size = new System.Drawing.Size(369, 388);
             this.lstRents.TabIndex = 13;
@@ -239,6 +239,7 @@
             this.btnDeleteRent.TabIndex = 22;
             this.btnDeleteRent.Text = "Delete Rent";
             this.btnDeleteRent.UseVisualStyleBackColor = true;
+            this.btnDeleteRent.Click += new System.EventHandler(this.btnDeleteRent_Click);
             // 
             // Form1
             // 
@@ -265,7 +266,7 @@
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.btnRent);
             this.Controls.Add(this.cmbItemType);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
