@@ -12,12 +12,14 @@ namespace Alquileres.Models
         private Item item;
         private int days;
         private decimal totalCost;
+        private User user;
         public Rent() { }
-        public Rent(Item item, int days, decimal totalCost)
+        public Rent(Item item, int days, decimal totalCost, User user)
         {
             this.item = item;
             this.days = days;
             this.totalCost = totalCost;
+            this.user = user;
         }
         public Item Item
         {
@@ -33,6 +35,15 @@ namespace Alquileres.Models
         {
             get { return totalCost; }
             set { totalCost = value; }
+        }
+        public User User
+        {
+            get { return user; }
+            set { user = value; }
+        }
+        public override string ToString()
+        {
+            return "Nombre:" + user.Name + "Precio:" + totalCost;
         }
     }
 }

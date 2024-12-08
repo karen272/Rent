@@ -12,10 +12,11 @@ namespace Alquileres.Controllers
 {
     public class RentController
     {
+        private readonly RentService _rentService;
 
         public RentController()
         {
-
+            _rentService = new RentService();
         }
 
         public decimal RentItem(User user, string itemType, string name, string description, decimal basePrice, int days, IPriceStrategy strategy)
@@ -24,14 +25,18 @@ namespace Alquileres.Controllers
             item.PriceStrategy = strategy;
             var priceTotal = strategy.CalculatePrice(basePrice, days);
 
-            var rental = new Rent(item, days, priceTotal);
-            user.Rents.Add(rental);
+            var rental = new Rent(item, days, priceTotal, user);
+            _rentService.AddRent(rental);
             return priceTotal;
         }
 
         public void DeleteRentItem(User user, Rent rent)
         {
             user.Rents.Remove(rent);
+        }
+        public List<Rent> GetAllRents()
+        {
+            return _rentService.GetAllRents();
         }
     }
 }

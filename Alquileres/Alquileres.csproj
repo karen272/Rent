@@ -50,6 +50,7 @@
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Factorys\ItemFactory.cs" />
     <Compile Include="Factorys\PriceStrategyFactory.cs" />
+    <Compile Include="Services\RentService.cs" />
     <Compile Include="Views\Form1.cs">
       <SubType>Form</SubType>
     </Compile>

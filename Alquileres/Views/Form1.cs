@@ -58,8 +58,9 @@ namespace Alquileres
                 // Realizo el alquiler
                 decimal total = _controller.RentItem(user, itemType, name, description, basePrice, days, strategy);
 
-                // Muestro resultados
-                lstRents.Items.Add($"{user.Name} rented: {name}, Total: ${total}");
+                //// Muestro resultados
+                //lstRents.Items.Add($"{user.Name} rented: {name}, Total: ${total}");
+                UpdateListRents();
             }
             catch (Exception ex)
             {
@@ -67,6 +68,12 @@ namespace Alquileres
             }
 
             LimpiarCampos();
+        }
+
+        public void UpdateListRents()
+        {
+            lstRents.Items.Clear();
+            lstRents.Items.AddRange(_controller.GetAllRents().ToArray());
         }
 
         private void LimpiarCampos()
