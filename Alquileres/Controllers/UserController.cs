@@ -26,6 +26,14 @@ namespace Alquileres.Controllers
             _userService.AddUser(newUser);
         }
 
+        public void RemoveUser(User user) 
+        {
+            if (string.IsNullOrEmpty(user.Name))
+                throw new ArgumentException();
+            _userService.DeleteUser(user);
+
+        }
+
         public List<User> GetAllUsers()
         {
             return _userService.GetAllUsers();

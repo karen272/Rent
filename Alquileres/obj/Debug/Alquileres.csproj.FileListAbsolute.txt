@@ -18,3 +18,4 @@ C:\Users\alons\OneDrive\Escritorio\sistemaAlquileres\Rent\Alquileres\obj\Debug\A
 C:\Users\alons\OneDrive\Escritorio\sistemaAlquileres\Rent\Alquileres\obj\Debug\Alquileres.csproj.CoreCompileInputs.cache
 C:\Users\alons\OneDrive\Escritorio\sistemaAlquileres\Rent\Alquileres\obj\Debug\Alquileres.exe
 C:\Users\alons\OneDrive\Escritorio\sistemaAlquileres\Rent\Alquileres\obj\Debug\Alquileres.pdb
+C:\Users\alons\OneDrive\Escritorio\sistemaAlquileres\Rent\Alquileres\obj\Debug\Alquileres.Views.UsersView.resources

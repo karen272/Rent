@@ -28,5 +28,10 @@ namespace Alquileres.Controllers
             user.Rents.Add(rental);
             return priceTotal;
         }
+
+        public void DeleteRentItem(User user, Rent rent)
+        {
+            user.Rents.Remove(rent);
+        }
     }
 }

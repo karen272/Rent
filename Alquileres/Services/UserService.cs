@@ -21,6 +21,11 @@ namespace Alquileres.Services
             _users.Add(user);
         }
 
+        public void DeleteUser(User user)
+        {
+            _users.Remove(user);
+        }
+
         public List<User> GetAllUsers()
         {
             return _users;

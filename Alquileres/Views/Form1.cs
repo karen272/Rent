@@ -4,6 +4,7 @@ using Alquileres.Models;
 using Alquileres.Services;
 using Alquileres.Services.Interfaces;
 using Alquileres.Services.Strategy;
+using Alquileres.Views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -47,18 +48,17 @@ namespace Alquileres
 
             try
             {
-                // Obtener datos del formulario
                 string itemType = cmbItemType.SelectedItem.ToString();
                 string name = txtName.Text;
                 string description = txtDescription.Text;
 
-                // Obtener la estrategia de precios usando el Factory
+                // Obtengo la estrategia de precios usando el Factory
                 IPriceStrategy strategy = PriceStrategyFactory.GetStrategy(itemType);
 
-                // Realizar el alquiler
+                // Realizo el alquiler
                 decimal total = _controller.RentItem(user, itemType, name, description, basePrice, days, strategy);
 
-                // Mostrar resultado
+                // Muestro resultados
                 lstRents.Items.Add($"{user.Name} rented: {name}, Total: ${total}");
             }
             catch (Exception ex)
@@ -77,31 +77,16 @@ namespace Alquileres
             txtDays.Clear();
         }
 
+        //Igresar a la ventana para agregar Usuarios
         private void btnAddUser_Click(object sender, EventArgs e)
         {
-            string name = txtUserName.Text;
 
-            if (string.IsNullOrEmpty(name))
-            {
-                MessageBox.Show("Please enter both name.");
-                return;
-            }
+            UsersView form2 = new UsersView(_controller, _userController, this);
+            form2.ShowDialog();
 
-            try
-            {
-                _userController.AddUser(name);
-
-                UpdateUserComboBox();
-
-                txtUserName.Clear();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
         }
 
-        private void UpdateUserComboBox()
+        public void UpdateUserComboBox()
         {
             cmbUsers.Items.Clear();
             cmbUsers.Items.AddRange(_userController.GetAllUsers().ToArray());
@@ -142,6 +127,11 @@ namespace Alquileres
             }
 
             return true;
+        }
+
+        private void btnUpdateRent_Click(object sender, EventArgs e)
+        {
+
         }
     }
        
