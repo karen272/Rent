@@ -37,11 +37,6 @@ namespace Alquileres
 
         private void btnRent_Click(object sender, EventArgs e)
         {
-            if (cmbUsers.SelectedItem == null || !(cmbUsers.SelectedItem is User user))
-            {
-                MessageBox.Show("Please select a user.");
-                return;
-            }
 
             if (!ValidateForm(out decimal basePrice, out int days))
                 return;
@@ -51,6 +46,7 @@ namespace Alquileres
                 string itemType = cmbItemType.SelectedItem.ToString();
                 string name = txtName.Text;
                 string description = txtDescription.Text;
+                User user = (User)cmbUsers.SelectedItem;
 
                 // Obtengo la estrategia de precios usando el Factory
                 IPriceStrategy strategy = PriceStrategyFactory.GetStrategy(itemType);
@@ -68,20 +64,6 @@ namespace Alquileres
             LimpiarCampos();
         }
 
-        public void UpdateListRents()
-        {
-            lstRents.Items.Clear();
-            lstRents.Items.AddRange(_controller.GetAllRents().ToArray());
-        }
-
-        private void LimpiarCampos()
-        {
-            txtName.Clear();
-            txtDescription.Clear();
-            txtBasePrice.Clear();
-            txtDays.Clear();
-        }
-
         //Igresar a la ventana para agregar Usuarios
         private void btnAddUser_Click(object sender, EventArgs e)
         {
@@ -91,56 +73,8 @@ namespace Alquileres
 
         }
 
-        public void UpdateUserComboBox()
-        {
-            cmbUsers.Items.Clear();
-            cmbUsers.Items.AddRange(_userController.GetAllUsers().ToArray());
-        }
-        private bool ValidateForm(out decimal basePrice, out int days)
-        {
-            basePrice = 0;
-            days = 0;
-
-            if (string.IsNullOrWhiteSpace(txtName.Text))
-            {
-                MessageBox.Show("The name field cannot be empty.");
-                return false;
-            }
-
-            if (string.IsNullOrWhiteSpace(txtDescription.Text))
-            {
-                MessageBox.Show("The description field cannot be empty.");
-                return false;
-            }
-
-            if (!decimal.TryParse(txtBasePrice.Text, out basePrice) || basePrice <= 0)
-            {
-                MessageBox.Show("Please enter a valid base price greater than zero.");
-                return false;
-            }
-
-            if (!int.TryParse(txtDays.Text, out days) || days <= 0)
-            {
-                MessageBox.Show("Please enter a valid number of days greater than zero.");
-                return false;
-            }
-
-            if (cmbItemType.SelectedItem == null)
-            {
-                MessageBox.Show("Please select an item type.");
-                return false;
-            }
-
-            return true;
-        }
-
         private void btnUpdateRent_Click(object sender, EventArgs e)
         {
-            if (cmbUsers.SelectedItem == null || !(cmbUsers.SelectedItem is User user))
-            {
-                MessageBox.Show("Please select a user.");
-                return;
-            }
 
             if (!ValidateForm(out decimal basePrice, out int days))
                 return;
@@ -150,6 +84,7 @@ namespace Alquileres
                 string itemType = cmbItemType.SelectedItem.ToString();
                 string name = txtName.Text;
                 string description = txtDescription.Text;
+                User user = (User)cmbUsers.SelectedItem;
 
                 IPriceStrategy strategy = PriceStrategyFactory.GetStrategy(itemType);
                 _controller.UpdateRent(user, itemType, name, description, basePrice, days, strategy);
@@ -224,10 +159,69 @@ namespace Alquileres
                 MessageBox.Show($"Error: {ex.Message}");
             }
         }
+        public void UpdateListRents()
+        {
+            lstRents.Items.Clear();
+            lstRents.Items.AddRange(_controller.GetAllRents().ToArray());
+        }
+        private void LimpiarCampos()
+        {
+            txtName.Clear();
+            txtDescription.Clear();
+            txtBasePrice.Clear();
+            txtDays.Clear();
+        }
+        public void UpdateUserComboBox()
+        {
+            cmbUsers.Items.Clear();
+            cmbUsers.Items.AddRange(_userController.GetAllUsers().ToArray());
+        }
+        private bool ValidateForm(out decimal basePrice, out int days)
+        {
+            basePrice = 0;
+            days = 0;
+
+            if (cmbUsers.SelectedItem == null || !(cmbUsers.SelectedItem is User user))
+            {
+                MessageBox.Show("Please select a user.");
+                return false;
+            }
+            if (string.IsNullOrWhiteSpace(txtName.Text))
+            {
+                MessageBox.Show("The name field cannot be empty.");
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtDescription.Text))
+            {
+                MessageBox.Show("The description field cannot be empty.");
+                return false;
+            }
+
+            if (!decimal.TryParse(txtBasePrice.Text, out basePrice) || basePrice <= 0)
+            {
+                MessageBox.Show("Please enter a valid base price greater than zero.");
+                return false;
+            }
+
+            if (!int.TryParse(txtDays.Text, out days) || days <= 0)
+            {
+                MessageBox.Show("Please enter a valid number of days greater than zero.");
+                return false;
+            }
+
+            if (cmbItemType.SelectedItem == null)
+            {
+                MessageBox.Show("Please select an item type.");
+                return false;
+            }
+
+            return true;
+        }
     }
-       
+
 
 }
 
 
-    
+
