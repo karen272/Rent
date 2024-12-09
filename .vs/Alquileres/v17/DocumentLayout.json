@@ -1,62 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\",
+  "WorkspaceRootPath": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\karen\\onedrive\\escritorio\\alquileres\\alquileres\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\controllers\\rentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\controllers\\rentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\controllers\\rentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\factorys\\pricestrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\factorys\\pricestrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\factorys\\pricestrategyfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\services\\strategy\\vehiclepricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\services\\strategy\\vehiclepricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\services\\strategy\\vehiclepricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\services\\strategy\\appliancepricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\services\\strategy\\appliancepricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\services\\strategy\\appliancepricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\services\\strategy\\costumepricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\services\\strategy\\costumepricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\services\\strategy\\costumepricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\services\\strategy\\machinerypricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\services\\strategy\\machinerypricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\services\\strategy\\machinerypricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\services\\strategy\\toolpricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\services\\strategy\\toolpricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\services\\strategy\\toolpricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\factorys\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\factorys\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\factorys\\itemfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|c:\\users\\alons\\onedrive\\escritorio\\sistemaalquileres\\rent\\alquileres\\services\\interfaces\\ipricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\services\\interfaces\\ipricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\services\\interfaces\\ipricestrategy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\alquileres\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\alquileres\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59D0EBE9-1B84-4516-BD72-C489FEF605D3}|Alquileres\\Alquileres.csproj|solutionrelative:alquileres\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,25 +65,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:587230467:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Alquileres\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Controllers\\UserController.cs",
               "RelativeToolTip": "Alquileres\\Controllers\\UserController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "ViewState": "AgIAABMAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T01:07:24.421Z",
               "EditorCaption": ""
@@ -93,170 +100,157 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "AppliancePriceStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\Strategy\\AppliancePriceStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\Strategy\\AppliancePriceStrategy.cs",
               "RelativeDocumentMoniker": "Alquileres\\Services\\Strategy\\AppliancePriceStrategy.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\Strategy\\AppliancePriceStrategy.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\Strategy\\AppliancePriceStrategy.cs",
               "RelativeToolTip": "Alquileres\\Services\\Strategy\\AppliancePriceStrategy.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:51:13.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:51:13.286Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "VehiclePriceStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\Strategy\\VehiclePriceStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\Strategy\\VehiclePriceStrategy.cs",
               "RelativeDocumentMoniker": "Alquileres\\Services\\Strategy\\VehiclePriceStrategy.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\Strategy\\VehiclePriceStrategy.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\Strategy\\VehiclePriceStrategy.cs",
               "RelativeToolTip": "Alquileres\\Services\\Strategy\\VehiclePriceStrategy.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:47:01.171Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:47:01.171Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\UserService.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Alquileres\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\UserService.cs",
               "RelativeToolTip": "Alquileres\\Services\\UserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T00:00:56.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T00:00:56.161Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Item.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Models\\Item.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Models\\Item.cs",
               "RelativeDocumentMoniker": "Alquileres\\Models\\Item.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Models\\Item.cs",
               "RelativeToolTip": "Alquileres\\Models\\Item.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAjwDoAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:32:15.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:32:15.68Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PriceStrategyFactory.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Factorys\\PriceStrategyFactory.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Factorys\\PriceStrategyFactory.cs",
               "RelativeDocumentMoniker": "Alquileres\\Factorys\\PriceStrategyFactory.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Factorys\\PriceStrategyFactory.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Factorys\\PriceStrategyFactory.cs",
               "RelativeToolTip": "Alquileres\\Factorys\\PriceStrategyFactory.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAvwBUAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:43:24.768Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:43:24.768Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "RentController.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Controllers\\RentController.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Controllers\\RentController.cs",
               "RelativeDocumentMoniker": "Alquileres\\Controllers\\RentController.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Controllers\\RentController.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Controllers\\RentController.cs",
               "RelativeToolTip": "Alquileres\\Controllers\\RentController.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAADgvxIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:27:45.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-05T23:27:45.503Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "CostumePriceStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\Strategy\\CostumePriceStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\Strategy\\CostumePriceStrategy.cs",
               "RelativeDocumentMoniker": "Alquileres\\Services\\Strategy\\CostumePriceStrategy.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\Strategy\\CostumePriceStrategy.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\Strategy\\CostumePriceStrategy.cs",
               "RelativeToolTip": "Alquileres\\Services\\Strategy\\CostumePriceStrategy.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T01:00:13.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T01:00:13.113Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "MachineryPriceStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\Strategy\\MachineryPriceStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\Strategy\\MachineryPriceStrategy.cs",
               "RelativeDocumentMoniker": "Alquileres\\Services\\Strategy\\MachineryPriceStrategy.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\Strategy\\MachineryPriceStrategy.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\Strategy\\MachineryPriceStrategy.cs",
               "RelativeToolTip": "Alquileres\\Services\\Strategy\\MachineryPriceStrategy.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T01:00:32.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T01:00:32.794Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ToolPriceStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\Strategy\\ToolPriceStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\Strategy\\ToolPriceStrategy.cs",
               "RelativeDocumentMoniker": "Alquileres\\Services\\Strategy\\ToolPriceStrategy.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\Strategy\\ToolPriceStrategy.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\Strategy\\ToolPriceStrategy.cs",
               "RelativeToolTip": "Alquileres\\Services\\Strategy\\ToolPriceStrategy.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T01:00:51.651Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Form1.cs",
-              "RelativeDocumentMoniker": "Alquileres\\Form1.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Form1.cs",
-              "RelativeToolTip": "Alquileres\\Form1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T00:35:42.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ItemFactory.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Factorys\\ItemFactory.cs",
-              "RelativeDocumentMoniker": "Alquileres\\Factorys\\ItemFactory.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Factorys\\ItemFactory.cs",
-              "RelativeToolTip": "Alquileres\\Factorys\\ItemFactory.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBkAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:40:52.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IPriceStrategy.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\Interfaces\\IPriceStrategy.cs",
-              "RelativeDocumentMoniker": "Alquileres\\Services\\Interfaces\\IPriceStrategy.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Services\\Interfaces\\IPriceStrategy.cs",
-              "RelativeToolTip": "Alquileres\\Services\\Interfaces\\IPriceStrategy.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T23:51:09.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T01:00:51.651Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Form1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Form1.cs",
+              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Form1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T00:35:42.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ItemFactory.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Factorys\\ItemFactory.cs",
+              "RelativeDocumentMoniker": "Alquileres\\Factorys\\ItemFactory.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Factorys\\ItemFactory.cs",
+              "RelativeToolTip": "Alquileres\\Factorys\\ItemFactory.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwBkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:40:52.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPriceStrategy.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\Interfaces\\IPriceStrategy.cs",
+              "RelativeDocumentMoniker": "Alquileres\\Services\\Interfaces\\IPriceStrategy.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Services\\Interfaces\\IPriceStrategy.cs",
+              "RelativeToolTip": "Alquileres\\Services\\Interfaces\\IPriceStrategy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T23:51:09.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Models\\User.cs",
+              "DocumentMoniker": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Models\\User.cs",
               "RelativeDocumentMoniker": "Alquileres\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\alons\\OneDrive\\Escritorio\\sistemaAlquileres\\Rent\\Alquileres\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\karen\\OneDrive\\Escritorio\\Alquileres\\Alquileres\\Models\\User.cs",
               "RelativeToolTip": "Alquileres\\Models\\User.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T03:43:45.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T03:43:45.701Z"
             }
           ]
         }
