@@ -18,7 +18,7 @@ namespace Alquileres.Models.Rentable
             this.type = type;
         }
 
-        public int IdTool
+        public int IdCostume
         {
             get { return idCostume; }
             set { idCostume = value; }
@@ -31,9 +31,5 @@ namespace Alquileres.Models.Rentable
         }
 
 
-        public override decimal CalculateRentalPrice(int days)
-        {
-            return BasePrice * days;
-        }
     }
 }

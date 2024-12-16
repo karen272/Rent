@@ -159,11 +159,14 @@ namespace Alquileres
                 MessageBox.Show($"Error: {ex.Message}");
             }
         }
+
+        //Recargamos la lista de las rentas
         public void UpdateListRents()
         {
             lstRents.Items.Clear();
             lstRents.Items.AddRange(_controller.GetAllRents().ToArray());
         }
+        //limpiamos los campos
         private void LimpiarCampos()
         {
             txtName.Clear();
@@ -171,11 +174,14 @@ namespace Alquileres
             txtBasePrice.Clear();
             txtDays.Clear();
         }
+        //Recargamos la lista de usuarios para elegir
         public void UpdateUserComboBox()
         {
             cmbUsers.Items.Clear();
             cmbUsers.Items.AddRange(_userController.GetAllUsers().ToArray());
         }
+
+        //Validaciones
         private bool ValidateForm(out decimal basePrice, out int days)
         {
             basePrice = 0;

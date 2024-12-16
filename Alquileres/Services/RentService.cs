@@ -1,4 +1,6 @@
-﻿using Alquileres.Models;
+﻿using Alquileres.Factorys;
+using Alquileres.Models;
+using Alquileres.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,8 +16,14 @@ namespace Alquileres.Services
         {
             _rents = new List<Rent>();
         }
-        public void AddRent(Rent rent)
+
+        public void AddRent(User user, string itemType, string name, string description, decimal basePrice, int days, IPriceStrategy strategy)
         {
+            var item = ItemFactory.CreateItem(itemType, name, description, basePrice);
+            item.PriceStrategy = strategy;
+            var priceTotal = strategy.CalculatePrice(basePrice, days);
+
+            var rent = new Rent(item, days, priceTotal, user, itemType);
             _rents.Add(rent);
         }
         public void DeleteRent(Rent rent)

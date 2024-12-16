@@ -19,15 +19,9 @@ namespace Alquileres.Controllers
             _rentService = new RentService();
         }
 
-        public decimal RentItem(User user, string itemType, string name, string description, decimal basePrice, int days, IPriceStrategy strategy)
+        public void RentItem(User user, string itemType, string name, string description, decimal basePrice, int days, IPriceStrategy strategy)
         {
-            var item = ItemFactory.CreateItem(itemType, name, description, basePrice);
-            item.PriceStrategy = strategy;
-            var priceTotal = strategy.CalculatePrice(basePrice, days);
-
-            var rental = new Rent(item, days, priceTotal, user, itemType);
-            _rentService.AddRent(rental);
-            return priceTotal;
+            _rentService.AddRent(user, itemType, name, description, basePrice, days, strategy);
         }
 
         public void DeleteRentItem(Rent rent)
@@ -41,12 +35,7 @@ namespace Alquileres.Controllers
 
         internal void UpdateRent(User user, string itemType, string name, string description, decimal basePrice, int days, IPriceStrategy strategy)
         {
-            var item = ItemFactory.CreateItem(itemType, name, description, basePrice);
-            item.PriceStrategy = strategy;
-            var priceTotal = strategy.CalculatePrice(basePrice, days);
-
-            var rental = new Rent(item, days, priceTotal, user, itemType);
-            _rentService.AddRent(rental);
+            _rentService.AddRent(user, itemType, name, description, basePrice, days, strategy);
         }
     }
 }

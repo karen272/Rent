@@ -31,9 +31,5 @@ namespace Alquileres.Models.Rentable
         }
 
 
-        public override decimal CalculateRentalPrice(int days)
-        {
-            return BasePrice * days;
-        }
     }
 }
